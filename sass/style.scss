@@ -43,6 +43,20 @@ section{
                 }
             }
         }
+        .batteryPill{
+            position: relative;
+            width: 75px;
+            height: 180px;
+            background-color: hsl(0, 0%, 9%);
+            box-shadow: inset 20px 0 48px hsl(0, 0%, 16%),
+            inset -4px 12px 48px hsl(0, 0%, 56%);
+            border-radius: 3rem;
+            justify-self: flex-end;
+            .batteryLevel{
+                position: absolute;
+            }
+
+        }
 
     }
 }

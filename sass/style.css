@@ -61,4 +61,19 @@ section .card .data h1 + p {
 section .card .data h1 + p i {
   font-size: 1.25rem;
 }
+
+section .card .batteryPill {
+  position: relative;
+  width: 75px;
+  height: 180px;
+  background-color: #171717;
+  -webkit-box-shadow: inset 20px 0 48px #292929, inset -4px 12px 48px #8f8f8f;
+          box-shadow: inset 20px 0 48px #292929, inset -4px 12px 48px #8f8f8f;
+  border-radius: 3rem;
+  justify-self: flex-end;
+}
+
+section .card .batteryPill .batteryLevel {
+  position: absolute;
+}
 /*# sourceMappingURL=style.css.map */
