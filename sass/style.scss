@@ -33,6 +33,13 @@ section{
                 + p{
                     position: absolute;
                     bottom: 1.5rem;
+                    display: flex;
+                    align-items: center;
+                    column-gap: 0.5rem;
+                    font-size: 0.813rem;
+                    i{
+                        font-size: 1.25rem;
+                    }
                 }
             }
         }

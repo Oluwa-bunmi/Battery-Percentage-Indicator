@@ -47,5 +47,18 @@ section .card .data h1 {
 section .card .data h1 + p {
   position: absolute;
   bottom: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 0.5rem;
+          column-gap: 0.5rem;
+  font-size: 0.813rem;
+}
+
+section .card .data h1 + p i {
+  font-size: 1.25rem;
 }
 /*# sourceMappingURL=style.css.map */
