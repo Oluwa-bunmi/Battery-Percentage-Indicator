@@ -156,13 +156,11 @@ section {
       hsl(92, 90%, 68%) 100%
     );
   }
+  .gradientYellow,
+  .gradientYellow::after {
+     background: linear-gradient(90deg, hsl(54, 89%, 46%) 15%,
+    hsl(92, 98%,45%) 100%);
+  }
 
-  //   .orange {
-  //     background: linear-gradient(90deg, hsl(22, 89%, 46%) 15%,
-  //     hsl(54, 98%,45%) 100%);
-  //   }
-  //   .yellow {
-  //     background: linear-gradient(90deg, hsl(54, 89%, 46%) 15%,
-  //     hsl(92, 98%,45%) 100%);
-  //   }
+ 
 }
