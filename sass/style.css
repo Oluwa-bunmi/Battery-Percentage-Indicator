@@ -100,7 +100,70 @@ section .card .batteryPill .batteryLiquid::after {
   height: 8px;
   background: -webkit-gradient(linear, left top, right top, color-stop(15%, #de250d), to(#f97d62));
   background: linear-gradient(90deg, #de250d 15%, #f97d62 100%);
-  -webkit-box-shadow: inset 0 -3px 6px hsla;
-          box-shadow: inset 0 -3px 6px hsla;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 4px;
+  border-radius: 50%;
+}
+
+section .green {
+  background: -webkit-gradient(linear, left top, right top, color-stop(15%, #6ede0d), to(#a9f764));
+  background: linear-gradient(90deg, #6ede0d 15%, #a9f764 100%);
+}
+
+section .animated-green {
+  background: -webkit-gradient(linear, left top, right top, color-stop(15%, #6ede0d), to(#a9f764));
+  background: linear-gradient(90deg, #6ede0d 15%, #a9f764 100%);
+  -webkit-animation: animated-charging-battery 1.2s infinite alternate;
+          animation: animated-charging-battery 1.2s infinite alternate;
+}
+
+section .animated-red {
+  background: -webkit-gradient(linear, left top, right top, color-stop(15%, #de250d), to(#f97d62));
+  background: linear-gradient(90deg, #de250d 15%, #f97d62 100%);
+  -webkit-animation: animated-low-battery 1.2s infinite alternate;
+          animation: animated-low-battery 1.2s infinite alternate;
+}
+
+section .animated-green, section .animated-red, section .green {
+  background-clip: text;
+  color: transparent;
+}
+
+@-webkit-keyframes animated-charging-battery {
+  0% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 6px #a9f764;
+  }
+}
+
+@keyframes animated-charging-battery {
+  0% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 6px #a9f764;
+  }
+}
+
+@-webkit-keyframes animated-low-battery {
+  0% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 8px #de250d;
+  }
+}
+
+@keyframes animated-low-battery {
+  0% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 8px #de250d;
+  }
 }
 /*# sourceMappingURL=style.css.map */
