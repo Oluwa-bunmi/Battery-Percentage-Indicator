@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   color: #fff;
   background-color: #1c1c1c;
   font-size: 0.938rem;
@@ -90,5 +90,17 @@ section .card .batteryPill .batteryLiquid {
   background: linear-gradient(90deg, #de250d 15%, #f97d62 100%);
   -webkit-box-shadow: inset -10px 0 12px rgba(0, 0, 0, 0.1), inset 12px 0 12px rgba(0, 0, 0, 0.15);
           box-shadow: inset -10px 0 12px rgba(0, 0, 0, 0.1), inset 12px 0 12px rgba(0, 0, 0, 0.15);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+section .card .batteryPill .batteryLiquid::after {
+  content: " ";
+  position: absolute;
+  height: 8px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(15%, #de250d), to(#f97d62));
+  background: linear-gradient(90deg, #de250d 15%, #f97d62 100%);
+  -webkit-box-shadow: inset 0 -3px 6px hsla;
+          box-shadow: inset 0 -3px 6px hsla;
 }
 /*# sourceMappingURL=style.css.map */
