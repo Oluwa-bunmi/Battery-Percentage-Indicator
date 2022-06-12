@@ -66,6 +66,8 @@ section{
                 height: 36px;
                 background: linear-gradient(90deg, hsl(7,89%,46%) 15%,
                 hsl(11,93%,68%) 100%);
+                box-shadow: inset -10px 0 12px hsla(0, 0%, 0%, 0.1),
+                        inset 12px 0 12px hsla(0, 0%, 0%, 0.15);
             }
 
         }
