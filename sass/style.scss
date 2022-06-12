@@ -28,6 +28,13 @@ section{
             p:first-child{
                 margin-bottom: 0.5rem;
             }
+            h1{
+                font-size: 2.75rem;
+                + p{
+                    position: absolute;
+                    bottom: 1.5rem;
+                }
+            }
         }
 
     }

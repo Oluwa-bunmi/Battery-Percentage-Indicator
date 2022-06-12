@@ -39,4 +39,13 @@ section .card {
 section .card .data p:first-child {
   margin-bottom: 0.5rem;
 }
+
+section .card .data h1 {
+  font-size: 2.75rem;
+}
+
+section .card .data h1 + p {
+  position: absolute;
+  bottom: 1.5rem;
+}
 /*# sourceMappingURL=style.css.map */
