@@ -19,6 +19,16 @@ batteryLiquid.style.height = '103%' // Hiding the ellipse
 else if(level <= 20 &! batt.charging){
 batteryStatus.innerHTML = `Low battery`;
 }
+else if(batt.charging){
+    batteryStatus.innerHTML = `Charging...`;
+}
+else{
+    batteryStatus.innerHTML = ''
+}
+// Changing battery color and removing other colors
+if(){
+    
+}
 
 
 
