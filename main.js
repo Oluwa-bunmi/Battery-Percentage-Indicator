@@ -26,8 +26,9 @@ else{
     batteryStatus.innerHTML = ''
 }
 // Changing battery color and removing other colors
-if(){
-    
+if(level <= 20){
+batteryLiquid.classList.add("gradientRed");
+batteryLiquid.classList.remove("gradientGreen", "gradientOrange", "gradientYellow");
 }
 
 
