@@ -59,7 +59,7 @@ section .card .data h1 + p {
 }
 
 section .card .data h1 + p i {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 section .card .batteryPill {

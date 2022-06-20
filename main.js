@@ -16,9 +16,9 @@ function initBattery() {
         batteryStatus.innerHTML = `Full battery <i class="fa-solid fa-battery-full green "></i>`;
         batteryLiquid.style.height = "103%"; // Hiding the ellipse
       } else if ((level <= 20) & !batt.charging) {
-        batteryStatus.innerHTML = `Low battery`;
+        batteryStatus.innerHTML = `Low battery <i class="fa-solid fa-plug animated-red"></i>`;
       } else if (batt.charging) {
-        batteryStatus.innerHTML = `Charging...`;
+        batteryStatus.innerHTML = `Charging... <i class="fa-solid fa-bolt-lightning animated-green"></i>`;
       } else {
         batteryStatus.innerHTML = "";
       }
