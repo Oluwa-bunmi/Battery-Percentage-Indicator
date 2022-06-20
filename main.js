@@ -30,6 +30,20 @@ if(level <= 20){
 batteryLiquid.classList.add("gradientRed");
 batteryLiquid.classList.remove("gradientGreen", "gradientOrange", "gradientYellow");
 }
+else if(level <= 40){
+batteryLiquid.classList.add("gradientOrange");
+batteryLiquid.classList.remove("gradientGreen", "gradientRed", "gradientYellow");
+}
+else if(level <= 80){
+batteryLiquid.classList.add("gradientYellow");
+batteryLiquid.classList.remove("gradientGreen", "gradientRed", "gradientOrange");
+}
+else {
+batteryLiquid.classList.add("gradientGreen");
+batteryLiquid.classList.remove("gradientYellow", "gradientRed", "gradientOrange");
+}
+
+
 
 
 
