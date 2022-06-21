@@ -36,6 +36,12 @@ section .card {
           align-items: center;
 }
 
+@media screen and (min-width: 444px) {
+  section .card {
+    width: 312px;
+  }
+}
+
 section .card .data p:first-child {
   margin-bottom: 0.5rem;
 }
