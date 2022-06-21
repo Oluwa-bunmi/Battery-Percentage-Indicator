@@ -42,6 +42,12 @@ section .card {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  section .card {
+    zoom: 1.3;
+  }
+}
+
 section .card .data p:first-child {
   margin-bottom: 0.5rem;
 }
