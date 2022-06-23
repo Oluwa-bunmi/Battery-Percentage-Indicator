@@ -126,20 +126,12 @@ section .green {
 
 section .animated-green {
   color: linear-gradient(90deg, #6ede0d 15%, #a9f764 100%);
-  font-size: 1rem;
 }
 
 section .animated-red {
   color: linear-gradient(90deg, #de250d 15%, #f97d62 100%);
   -webkit-animation: animated-low-battery 1.2s infinite alternate;
           animation: animated-low-battery 1.2s infinite alternate;
-}
-
-section .animated-green,
-section .animated-red,
-section .green {
-  background-clip: text;
-  color: transparent;
 }
 
 @-webkit-keyframes animated-low-battery {

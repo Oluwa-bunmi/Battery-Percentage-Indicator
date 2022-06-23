@@ -113,7 +113,7 @@ section {
       hsl(92, 89%, 46%) 15%,
       hsl(92, 90%, 68%) 100%
     );
-    font-size: 1rem;
+    // font-size: 1rem;
     // animation: animated-charging-battery 1.2s infinite alternate;
   }
   // Low Battery Animation
@@ -121,12 +121,12 @@ section {
     color: linear-gradient(90deg, hsl(7, 89%, 46%) 15%, hsl(11, 93%, 68%) 100%);
     animation: animated-low-battery 1.2s infinite alternate;
   }
-  .animated-green,
-  .animated-red,
-  .green {
-    background-clip: text;
-    color: transparent;
-  }
+  // .animated-green,
+  // .animated-red,
+  // .green {
+  //   background-clip: text;
+  //   color: transparent;
+  // }
   // @keyframes animated-charging-battery {
   //   0% {
   //     text-shadow: none;
