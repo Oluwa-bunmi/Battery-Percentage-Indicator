@@ -18,7 +18,7 @@ function initBattery() {
       } else if ((level <= 20) &! batt.charging) {
         batteryStatus.innerHTML = `Low battery <i class="fa-solid fa-plug animated-red"></i>`;
       } else if (batt.charging) {
-        batteryStatus.innerHTML = `Charging... <i class="fa-solid fa-bolt-lightning green"></i>`;
+        batteryStatus.innerHTML = `Charging... <i class="fa-solid fa-bolt-lightning animated-green"></i>`;
       } else {
         batteryStatus.innerHTML = "";
       }

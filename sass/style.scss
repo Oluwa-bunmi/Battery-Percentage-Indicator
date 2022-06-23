@@ -100,7 +100,7 @@ section {
     }
   }
   .green {
-   color: linear-gradient(
+    background: linear-gradient(
       90deg,
       hsl(92, 89%, 46%) 15%,
       hsl(92, 90%, 68%) 100%
@@ -113,8 +113,9 @@ section {
       hsl(92, 89%, 46%) 15%,
       hsl(92, 90%, 68%) 100%
     );
+   
   
-    animation: animated-charging-battery 1.2s infinite alternate;
+    animation: animated-charging-battery 1.2s  alternate;
   }
   // Low Battery Animation
   .animated-red {
