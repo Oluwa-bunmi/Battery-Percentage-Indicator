@@ -108,11 +108,12 @@ section {
   }
   // Battery Charging Animation
   .animated-green {
-  background: linear-gradient(
+    color: linear-gradient(
       90deg,
       hsl(92, 89%, 46%) 15%,
       hsl(92, 90%, 68%) 100%
     );
+    font-size: 1rem;
     // animation: animated-charging-battery 1.2s infinite alternate;
   }
   // Low Battery Animation
