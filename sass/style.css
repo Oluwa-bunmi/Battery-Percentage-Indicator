@@ -148,7 +148,7 @@ section .green {
     text-shadow: none;
   }
   100% {
-    text-shadow: 0 0 6px #a9f764;
+    text-shadow: none;
   }
 }
 
@@ -157,7 +157,7 @@ section .green {
     text-shadow: none;
   }
   100% {
-    text-shadow: 0 0 6px #a9f764;
+    text-shadow: none;
   }
 }
 
