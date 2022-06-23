@@ -108,7 +108,7 @@ section {
   }
   // Battery Charging Animation
   .animated-green {
-  fill: linear-gradient(
+  background: linear-gradient(
       90deg,
       hsl(92, 89%, 46%) 15%,
       hsl(92, 90%, 68%) 100%
