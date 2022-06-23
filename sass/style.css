@@ -125,8 +125,11 @@ section .green {
 }
 
 section .animated-green {
-  background: -webkit-gradient(linear, left top, right top, color-stop(15%, #6ede0d), to(#a9f764));
-  background: linear-gradient(90deg, #6ede0d 15%, #a9f764 100%);
+  color: linear-gradient(90deg, #6ede0d 15%, #a9f764 100%);
+  -webkit-animation: animated-charging-battery 1.2s  5 alternate;
+          animation: animated-charging-battery 1.2s  5 alternate;
+  -webkit-animation-fill-mode: alternate;
+          animation-fill-mode: alternate;
 }
 
 section .animated-red {
@@ -140,6 +143,24 @@ section .animated-red,
 section .green {
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@-webkit-keyframes animated-charging-battery {
+  0% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 6px #a9f764;
+  }
+}
+
+@keyframes animated-charging-battery {
+  0% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 6px #a9f764;
+  }
 }
 
 @-webkit-keyframes animated-low-battery {

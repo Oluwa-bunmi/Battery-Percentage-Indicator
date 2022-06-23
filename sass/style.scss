@@ -108,17 +108,20 @@ section {
   }
   // Battery Charging Animation
   .animated-green {
-  background: linear-gradient(
+  color: linear-gradient(
       90deg,
       hsl(92, 89%, 46%) 15%,
       hsl(92, 90%, 68%) 100%
     );
-    // font-size: 1rem;
+  
     // animation: animated-charging-battery 1.2s infinite alternate;
+    animation: animated-charging-battery 1.2s  5 alternate;
+    animation-fill-mode: alternate;
   }
   // Low Battery Animation
   .animated-red {
     color: linear-gradient(90deg, hsl(7, 89%, 46%) 15%, hsl(11, 93%, 68%) 100%);
+    
     animation: animated-low-battery 1.2s infinite alternate;
   }
   .animated-green,
@@ -128,15 +131,15 @@ section {
     // color: transparent;
     -webkit-text-fill-color: transparent;
   }
-  // @keyframes animated-charging-battery {
-  //   0% {
-  //     text-shadow: none;
-  //   }
-  //   100% {
-  //     // text-shadow: 0 0 6px hsl(92, 90%, 68%);
-  //       text-shadow: none;
-  //   }
-  // }
+  @keyframes animated-charging-battery {
+    0% {
+      text-shadow: none;
+    }
+    100% {
+      text-shadow: 0 0 6px hsl(92, 90%, 68%);
+      
+    }
+  }
   @keyframes animated-low-battery {
     0% {
       text-shadow: none;
