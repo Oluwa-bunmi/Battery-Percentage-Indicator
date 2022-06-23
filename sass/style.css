@@ -139,7 +139,7 @@ section .animated-green,
 section .animated-red,
 section .green {
   background-clip: text;
-  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 @-webkit-keyframes animated-low-battery {

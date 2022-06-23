@@ -125,7 +125,8 @@ section {
   .animated-red,
   .green {
     background-clip: text;
-    color: transparent;
+    // color: transparent;
+    -webkit-text-fill-color: transparent;
   }
   // @keyframes animated-charging-battery {
   //   0% {
