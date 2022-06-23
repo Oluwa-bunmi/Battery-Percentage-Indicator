@@ -134,13 +134,6 @@ section .animated-red {
           animation: animated-low-battery 1.2s infinite alternate;
 }
 
-section .animated-green,
-section .animated-red,
-section .green {
-  background-clip: text;
-  color: transparent;
-}
-
 @-webkit-keyframes animated-charging-battery {
   0% {
     text-shadow: none;
