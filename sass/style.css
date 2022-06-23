@@ -126,8 +126,6 @@ section .green {
 
 section .animated-green {
   color: linear-gradient(90deg, #6ede0d 15%, #a9f764 100%);
-  -webkit-animation: animated-charging-battery 1.2s infinite alternate;
-          animation: animated-charging-battery 1.2s infinite alternate;
 }
 
 section .animated-red {
@@ -141,24 +139,6 @@ section .animated-red,
 section .green {
   background-clip: text;
   color: transparent;
-}
-
-@-webkit-keyframes animated-charging-battery {
-  0% {
-    text-shadow: none;
-  }
-  100% {
-    text-shadow: none;
-  }
-}
-
-@keyframes animated-charging-battery {
-  0% {
-    text-shadow: none;
-  }
-  100% {
-    text-shadow: none;
-  }
 }
 
 @-webkit-keyframes animated-low-battery {
