@@ -125,7 +125,7 @@ section .green {
 }
 
 section .animated-green {
-  color: linear-gradient(90deg, #6ede0d 15%, #a9f764 100%);
+  fill: linear-gradient(90deg, #6ede0d 15%, #a9f764 100%);
 }
 
 section .animated-red {
