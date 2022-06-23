@@ -72,11 +72,11 @@ section {
         left: 0;
         right: 0;
         height: 36px;
-        background: linear-gradient(
-          90deg,
-          hsl(7, 89%, 46%) 15%,
-          hsl(11, 93%, 68%) 100%
-        );
+        // background: linear-gradient(
+        //   90deg,
+        //   hsl(7, 89%, 46%) 15%,
+        //   hsl(11, 93%, 68%) 100%
+        // );
         box-shadow: inset -10px 0 12px hsla(0, 0%, 0%, 0.1),
           inset 12px 0 12px hsla(0, 0%, 0%, 0.15);
         transition: 0.3s;
@@ -85,16 +85,16 @@ section {
         content: " ";
         position: absolute;
         height: 8px;
-        background: linear-gradient(
-          90deg,
-          hsl(7, 89%, 46%) 15%,
-          hsl(11, 93%, 68%) 100%
-        );
-        // box-shadow: inset 0 -3px 6px hsla(0, 0%, 0.2);
+        // background: linear-gradient(
+        //   90deg,
+        //   hsl(7, 89%, 46%) 15%,
+        //   hsl(11, 93%, 68%) 100%
+        // );
+        box-shadow: inset 0 -3px 6px hsla(0, 0%, 0%, 0.2);
         left: 0;
         right: 0;
         margin: 0 auto;
-        top: 4px;
+        top: -4px;
         border-radius: 50%;
       }
     }
@@ -107,16 +107,12 @@ section {
     );
   }
   // Battery Charging Animation
-  .animated-green {
-//  color: linear-gradient(
-//       90deg,
-//       hsl(92, 89%, 46%) 15%,
-//       hsl(92, 90%, 68%) 100%
-//     );
+  .greenCharge {
+
        color: #39e939;
 
   
-    // animation: animated-charging-battery 1.2s ;
+   
   }
   // Low Battery Animation
   .animated-red {
@@ -124,13 +120,13 @@ section {
     animation: animated-low-battery 1.2s infinite alternate;
   
   }
-  // .animated-green,
-  // .animated-red,
-  // .green {
-  //   background-clip: text;
-  //   color: transparent;
+  
+  .animated-red,
+  .green {
+    background-clip: text;
+    color: transparent;
     
-  // }
+  }
   @keyframes animated-charging-battery {
     0% {
       text-shadow: none;
