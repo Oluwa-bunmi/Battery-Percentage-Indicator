@@ -125,8 +125,7 @@ section .green {
 }
 
 section .animated-green {
-  background: -webkit-gradient(linear, left top, right top, color-stop(15%, #6ede0d), to(#a9f764));
-  background: linear-gradient(90deg, #6ede0d 15%, #a9f764 100%);
+  color: linear-gradient(90deg, #6ede0d 15%, #a9f764 100%);
   -webkit-animation: animated-charging-battery 1.2s infinite alternate;
           animation: animated-charging-battery 1.2s infinite alternate;
 }
