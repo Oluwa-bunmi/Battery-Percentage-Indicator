@@ -116,17 +116,22 @@ section {
   }
   // Low Battery Animation
   .animated-red {
-    color: linear-gradient(90deg, hsl(7, 89%, 46%) 15%, hsl(11, 93%, 68%) 100%);
+ color: linear-gradient(90deg, hsl(7, 89%, 46%) 15%, hsl(11, 93%, 68%) 100%);
     animation: animated-low-battery 1.2s infinite alternate;
+   
   
   }
   
-  .animated-red,
-  .green {
+  .animated-red
+  {
     background-clip: text;
-    color: transparent;
+    color: rgb(212, 115, 115);
     
   }
+   .green{
+      background-clip: text;
+      color: greenyellow;
+   }
   @keyframes animated-charging-battery {
     0% {
       text-shadow: none;
@@ -145,29 +150,25 @@ section {
     }
   }
   // Color Change in Battery Level
-  .gradientRed,
-  .gradientRed::after {
+  .gradientRed {
     background: linear-gradient(
       90deg,
       hsl(7, 89%, 46%) 15%,
       hsl(11, 93%, 68%) 100%
     );
   }
-  .gradientOrange,
-  .gradientOrange::after {
+  .gradientOrange {
      background: linear-gradient(90deg, hsl(22, 89%, 46%) 15%,
      hsl(54, 98%,45%) 100%);
   }
-  .gradientGreen,
-  .gradientGreen::after {
+  .gradientGreen {
    background: linear-gradient(
       90deg,
       hsl(92, 89%, 46%) 15%,
       hsl(92, 90%, 68%) 100%
     );
   }
-  .gradientYellow,
-  .gradientYellow::after {
+  .gradientYellow {
      background: linear-gradient(90deg, hsl(54, 89%, 46%) 15%,
     hsl(92, 98%,45%) 100%);
   }

@@ -132,10 +132,14 @@ section .animated-red {
           animation: animated-low-battery 1.2s infinite alternate;
 }
 
-section .animated-red,
+section .animated-red {
+  background-clip: text;
+  color: #d47373;
+}
+
 section .green {
   background-clip: text;
-  color: transparent;
+  color: greenyellow;
 }
 
 @-webkit-keyframes animated-charging-battery {
@@ -174,26 +178,22 @@ section .green {
   }
 }
 
-section .gradientRed,
-section .gradientRed::after {
+section .gradientRed {
   background: -webkit-gradient(linear, left top, right top, color-stop(15%, #de250d), to(#f97d62));
   background: linear-gradient(90deg, #de250d 15%, #f97d62 100%);
 }
 
-section .gradientOrange,
-section .gradientOrange::after {
+section .gradientOrange {
   background: -webkit-gradient(linear, left top, right top, color-stop(15%, #de590d), to(#e3cd02));
   background: linear-gradient(90deg, #de590d 15%, #e3cd02 100%);
 }
 
-section .gradientGreen,
-section .gradientGreen::after {
+section .gradientGreen {
   background: -webkit-gradient(linear, left top, right top, color-stop(15%, #6ede0d), to(#a9f764));
   background: linear-gradient(90deg, #6ede0d 15%, #a9f764 100%);
 }
 
-section .gradientYellow,
-section .gradientYellow::after {
+section .gradientYellow {
   background: -webkit-gradient(linear, left top, right top, color-stop(15%, #dec90d), to(#6be302));
   background: linear-gradient(90deg, #dec90d 15%, #6be302 100%);
 }
