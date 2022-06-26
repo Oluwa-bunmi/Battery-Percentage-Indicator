@@ -100,11 +100,7 @@ section {
     }
   }
   .green {
-    background: linear-gradient(
-      90deg,
-      hsl(92, 89%, 46%) 15%,
-      hsl(92, 90%, 68%) 100%
-    );
+     color: #39e939;
   }
   // Battery Charging Animation
   .greenCharge {
@@ -128,10 +124,10 @@ section {
     color: rgb(212, 115, 115);
     
   }
-   .green{
-      background-clip: text;
-      color: greenyellow;
-   }
+  //  .green{
+  //     background-clip: text;
+  //     color: greenyellow;
+  //  }
   @keyframes animated-charging-battery {
     0% {
       text-shadow: none;
