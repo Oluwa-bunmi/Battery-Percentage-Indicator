@@ -12,7 +12,7 @@ body {
   font-size: 0.938rem;
 }
 
-section {
+body section {
   height: 100vh;
   display: -ms-grid;
   display: grid;
@@ -20,7 +20,7 @@ section {
   margin: 0 1.5rem;
 }
 
-section .card {
+body section .card {
   position: relative;
   width: 100%;
   height: 240px;
@@ -37,26 +37,26 @@ section .card {
 }
 
 @media screen and (min-width: 444px) {
-  section .card {
+  body section .card {
     width: 312px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  section .card {
+  body section .card {
     zoom: 1.2;
   }
 }
 
-section .card .data p:first-child {
+body section .card .data p:first-child {
   margin-bottom: 0.5rem;
 }
 
-section .card .data h1 {
+body section .card .data h1 {
   font-size: 2.75rem;
 }
 
-section .card .data h1 + p {
+body section .card .data h1 + p {
   position: absolute;
   bottom: 1.5rem;
   display: -webkit-box;
@@ -70,11 +70,11 @@ section .card .data h1 + p {
   font-size: 0.813rem;
 }
 
-section .card .data h1 + p i {
+body section .card .data h1 + p i {
   font-size: 1rem;
 }
 
-section .card .batteryPill {
+body section .card .batteryPill {
   position: relative;
   width: 75px;
   height: 180px;
@@ -85,14 +85,14 @@ section .card .batteryPill {
   justify-self: flex-end;
 }
 
-section .card .batteryPill .batteryLevel {
+body section .card .batteryPill .batteryLevel {
   position: absolute;
   inset: 2px;
   border-radius: 3rem;
   overflow: hidden;
 }
 
-section .card .batteryPill .batteryLiquid {
+body section .card .batteryPill .batteryLiquid {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -104,7 +104,7 @@ section .card .batteryPill .batteryLiquid {
   transition: 0.3s;
 }
 
-section .card .batteryPill .batteryLiquid::after {
+body section .card .batteryPill .batteryLiquid::after {
   content: " ";
   position: absolute;
   height: 8px;
@@ -117,21 +117,21 @@ section .card .batteryPill .batteryLiquid::after {
   border-radius: 50%;
 }
 
-section .green {
+body section .green {
   color: #39e939;
 }
 
-section .greenCharge {
+body section .greenCharge {
   color: #39e939;
 }
 
-section .animated-red {
+body section .animated-red {
   color: linear-gradient(90deg, #de250d 15%, #f97d62 100%);
   -webkit-animation: animated-low-battery 1.2s infinite alternate;
           animation: animated-low-battery 1.2s infinite alternate;
 }
 
-section .animated-red {
+body section .animated-red {
   background-clip: text;
   color: #d47373;
 }
@@ -172,22 +172,22 @@ section .animated-red {
   }
 }
 
-section .gradientRed {
+body section .gradientRed {
   background: -webkit-gradient(linear, left top, right top, color-stop(15%, #de250d), to(#f97d62));
   background: linear-gradient(90deg, #de250d 15%, #f97d62 100%);
 }
 
-section .gradientOrange {
+body section .gradientOrange {
   background: -webkit-gradient(linear, left top, right top, color-stop(15%, #de590d), to(#e3cd02));
   background: linear-gradient(90deg, #de590d 15%, #e3cd02 100%);
 }
 
-section .gradientGreen {
+body section .gradientGreen {
   background: -webkit-gradient(linear, left top, right top, color-stop(15%, #6ede0d), to(#a9f764));
   background: linear-gradient(90deg, #6ede0d 15%, #a9f764 100%);
 }
 
-section .gradientYellow {
+body section .gradientYellow {
   background: -webkit-gradient(linear, left top, right top, color-stop(15%, #dec90d), to(#6be302));
   background: linear-gradient(90deg, #dec90d 15%, #6be302 100%);
 }

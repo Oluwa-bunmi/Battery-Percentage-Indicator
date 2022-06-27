@@ -3,12 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Rubik", sans-serif;
   color: #fff;
   background-color: hsl(0, 0%, 11%);
   font-size: 0.938rem;
-}
+
 section {
   height: 100vh;
   display: grid;
@@ -72,11 +73,7 @@ section {
         left: 0;
         right: 0;
         height: 36px;
-        // background: linear-gradient(
-        //   90deg,
-        //   hsl(7, 89%, 46%) 15%,
-        //   hsl(11, 93%, 68%) 100%
-        // );
+     
         box-shadow: inset -10px 0 12px hsla(0, 0%, 0%, 0.1),
           inset 12px 0 12px hsla(0, 0%, 0%, 0.15);
         transition: 0.3s;
@@ -85,11 +82,7 @@ section {
         content: " ";
         position: absolute;
         height: 8px;
-        // background: linear-gradient(
-        //   90deg,
-        //   hsl(7, 89%, 46%) 15%,
-        //   hsl(11, 93%, 68%) 100%
-        // );
+      
         box-shadow: inset 0 -3px 6px hsla(0, 0%, 0%, 0.2);
         left: 0;
         right: 0;
@@ -167,4 +160,5 @@ section {
   }
 
  
+}
 }
